@@ -1,4 +1,4 @@
-.container_number{
+.container_number {
     border: 1px solid silver;
     width: 150px;
     height: 100px;
@@ -8,7 +8,7 @@
     background: #d7f3f1;
 }
 
-.container_number_reset{
+.container_number_reset {
     border: 1px solid silver;
     width: 150px;
     height: 100px;
@@ -18,7 +18,7 @@
     background: #fab2b2;
 }
 
-.button{
+.button {
     width: 70px;
     height: 30px;
     margin-right: 10px;
@@ -27,7 +27,7 @@
     cursor: pointer;
 }
 
-.button_disabled{
+.button_disabled {
     color: silver;
     width: 70px;
     height: 30px;
@@ -37,11 +37,26 @@
     cursor: wait;
 }
 
-.number{
-  margin: 10px;
+.number {
+    margin: 10px;
     font-size: 50px;
 }
 
-.container{
+.container {
     color: cornflowerblue;
+}
+
+.incorrect {
+    color: red;
+    background: #fab2b2;
+    border: 1px solid silver;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.incorrect p {
+    margin-top: 30px;
 }

@@ -7,7 +7,7 @@ type PropsType = {
     disableButton?: boolean
 }
 
-const Button = (props: PropsType) => {
+export const Button = (props: PropsType) => {
     const {name, callBack, disableButton} = props
 
     return (
@@ -16,5 +16,3 @@ const Button = (props: PropsType) => {
                 disabled={disableButton}>{name}</button>
     )
 }
-
-export default Button
